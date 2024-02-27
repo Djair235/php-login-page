@@ -1,0 +1,104 @@
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #201b2c;
+    
+}
+
+
+#label_nome, #label_sobrenome, #botaoenviar {
+    color: white;
+}
+
+
+#section_form {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+#form_div_pai {
+    margin-top: -15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: fit-content;
+    
+    
+}
+
+input {
+    width: 20vw;
+    height: 2.5vw;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: #514869;
+    color: white;
+    
+}
+
+#form_div_pai > input::placeholder {
+    color: #f0ffff94
+}
+
+#label_nome, #label_sobrenome {
+    font-size: 20px;
+}
+
+
+#input_text_nome {
+    margin-top: 5px;
+}
+#input_text_snome {
+    margin-top: 5px;
+}
+
+
+
+#label_nome {
+    margin-left: 7px;
+}
+
+#label_sobrenome{
+    margin-left: 7px;
+    margin-top: 20px;
+}
+
+
+#botaoenviar {
+    margin-top: 25px;
+    height: 5vh;
+    width: 10vw;
+    align-self: center;
+    background-color: #77ffc0;
+    cursor: pointer;
+    color: #2f2841;
+    font-size: 20px;
+    font-weight:bolder;
+}
+
+#div_1 {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #2f2841;
+    box-shadow: 0px 10px 40px #00000056;
+    
+}
+
+#h1_login {
+    color: #77ffc0;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 5px;
+    
+}
